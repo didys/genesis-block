@@ -6,9 +6,9 @@
 ## setup
 
 ```js
-sudo pip install git+git://github.com/nasa8x/mixhash.git
+sudo pip install git+git://github.com/didys/mixhash.git
 
-git clone https://github.com/nasa8x/genesis-block.git
+git clone https://github.com/didys/genesis-block.git
 
 cd genesis-block
 
