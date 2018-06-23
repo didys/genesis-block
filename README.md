@@ -6,6 +6,9 @@
 ## setup
 
 ```js
+
+export LC_ALL=C
+
 sudo pip install git+git://github.com/didys/mixhash.git
 
 git clone https://github.com/didys/genesis-block.git
