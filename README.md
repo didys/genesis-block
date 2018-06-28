@@ -21,6 +21,15 @@ cd genesis-block
 
 ```
 
+## error
+```js
+
+sudo pip install quark-hash
+
+pip install construct==2.5.2
+
+```
+
 ## help
 
 ```js 
