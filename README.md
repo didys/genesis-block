@@ -13,6 +13,8 @@ export LC_ALL=C
 
 sudo pip install git+git://github.com/didys/mixhash.git
 
+sudo pip install git+git://github.com/didys/quarkcoin-hash-python.git
+
 git clone https://github.com/didys/genesis-block.git
 
 cd genesis-block
