@@ -11,9 +11,11 @@ sudo apt-get install python-pip
 
 export LC_ALL=C
 
-sudo pip install git+git://github.com/didys/mixhash.git
+pip install construct==2.5.2
 
-sudo pip install git+git://github.com/didys/quarkcoin-hash-python.git
+sudo pip install quark-hash
+
+sudo pip install git+git://github.com/didys/mixhash.git
 
 git clone https://github.com/didys/genesis-block.git
 
@@ -21,14 +23,6 @@ cd genesis-block
 
 ```
 
-## error
-```js
-
-sudo pip install quark-hash
-
-pip install construct==2.5.2
-
-```
 
 ## help
 
