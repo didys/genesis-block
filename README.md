@@ -6,13 +6,12 @@
 ```js
 
 export LC_ALL=C;
-sudo apt-get install -y python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-setuptools;
+apt-get install -y python-pip python-dev build-essential python-setuptools git;
 pip install construct==2.5.2;
 pip install wheel;
-sudo pip install quark-hash;
-sudo pip install git+git://github.com/dsdsenen/mixhash.git;
+pip install quark-hash;
+pip install git+git://github.com/dsdsenen/mixhash.git;
 git clone https://github.com/dsdsenen/genesis-block.git;
-
 cd genesis-block
 
 ```
