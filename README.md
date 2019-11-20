@@ -5,8 +5,8 @@
 
 ```js
 
-sudo apt-get install -y python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev;
 export LC_ALL=C;
+sudo apt-get install -y python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-setuptools;
 pip install construct==2.5.2;
 pip install wheel;
 sudo pip install quark-hash;
