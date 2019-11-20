@@ -7,17 +7,13 @@
 
 ```js
 
-sudo apt-get install python-pip
-
-export LC_ALL=C
-
-pip install construct==2.5.2
-
-sudo pip install quark-hash
-
-sudo pip install git+git://github.com/didys/mixhash.git
-
-git clone https://github.com/didys/genesis-block.git
+sudo apt-get install python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev;
+export LC_ALL=C;
+pip install construct==2.5.2;
+pip install wheel;
+sudo pip install quark-hash;
+sudo pip install git+git://github.com/dsdsenen/mixhash.git;
+git clone https://github.com/dsdsenen/genesis-block.git;
 
 cd genesis-block
 
