@@ -1,13 +1,11 @@
 ## Genesis Block Proof of Work for multiple Hash Algorithms.
 
->> Node.js version --> https://github.com/nasa8x/node-genesis-block
-
 
 ## setup
 
 ```js
 
-sudo apt-get install python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev;
+sudo apt-get install -y python-pip python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev;
 export LC_ALL=C;
 pip install construct==2.5.2;
 pip install wheel;
